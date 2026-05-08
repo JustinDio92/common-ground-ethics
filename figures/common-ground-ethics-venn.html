@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Common-Ground Ethics — Philosophical Positions Convergence Map (v2)</title>
+<style>
+  body {
+    font-family: -apple-system, Segoe UI, system-ui, sans-serif;
+    background: #fafaf7;
+    color: #1a1a1a;
+    margin: 0;
+    padding: 24px;
+  }
+  h1 { font-size: 22px; margin: 0 0 6px; }
+  h2 { font-size: 15px; margin: 18px 0 6px; color: #333; }
+  .subtitle { color: #555; font-size: 13px; margin-bottom: 16px; }
+  .versioning { color: #888; font-size: 12px; margin-bottom: 14px; font-style: italic; }
+  .wrap { max-width: 1280px; margin: 0 auto; }
+  svg { width: 100%; height: auto; display: block; background: #fdfcf8; border: 1px solid #ddd; border-radius: 6px; }
+  .legend { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px 20px; margin-top: 14px; font-size: 13px; }
+  .legend-item { display: flex; align-items: center; gap: 8px; }
+  .swatch { width: 16px; height: 16px; border-radius: 3px; flex-shrink: 0; }
+  .notes { font-size: 13px; color: #444; background: #fff; padding: 12px 16px; border-left: 3px solid #888; margin-top: 16px; }
+  .notes ul { margin: 6px 0 0; padding-left: 18px; }
+  .notes li { margin: 3px 0; }
+  .convergence-panel {
+    background: #fff8e0; border: 1.5px solid #9a7b1a; border-radius: 6px;
+    padding: 12px 18px; margin-top: 14px; font-size: 13px; color: #333;
+  }
+  .convergence-panel h3 {
+    margin: 0 0 8px; font-size: 14px; color: #6a5410; text-transform: uppercase; letter-spacing: 0.5px;
+  }
+  .convergence-panel ul { margin: 0; padding-left: 20px; }
+  .convergence-panel li { margin: 3px 0; }
+  code { background: #eee; padding: 1px 4px; border-radius: 3px; font-size: 12px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Common-Ground Ethics &mdash; Philosophical Positions Convergence Map</h1>
+  <div class="subtitle">
+    Three structural axes (Reasoned-Ethics, Character / Capacity-Cultivation, Universal-Scope) drawn as overlapping circles.
+    A fourth axis &mdash; presence of an Internal-Critique / Self-Correction mechanism &mdash; shown as a dashed outer ring.
+    Positions sitting outside the three circles represent the &ldquo;failure modes&rdquo; the framework pushes against (voluntarist DCT, pure compliance, moral disengagement, deficit-cataloguing).
+  </div>
+  <div class="versioning">
+    v3 (2026-05-06) &mdash; R&cap;U and C&cap;U clusters raised by 50px to vertically center them in their lens zones and clear the bottom arcs of the R and C circles. v2 (2026-05-02, layout pass 3) &mdash; REASONED ETHICS cluster shifted right to x=340 (R-only zone geometric center); CHARACTER cluster shifted left to x=860 (C-only zone center) so both axes are symmetric and centered in their respective regions. FAILURE-MECHANISM MAP and EMPIRICAL ANCHOR moved up and aligned at x=60 / x=980 to mirror VOLUNTARIST POLE and COMPLIANCE / DEFICIT POLE at the top corners. Convergence-zone tradition list lives in the panel below the SVG.
+  </div>
+
+  <svg viewBox="0 0 1200 950" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Venn diagram of philosophical positions converging on Common-Ground Ethics">
+
+    <!-- Top ring caption -->
+    <text x="600" y="38" text-anchor="middle" font-size="14" fill="#8a6d3b" font-weight="600" font-style="italic">
+      Dashed ring: traditions/frameworks with institutionalized internal-critique mechanisms
+    </text>
+
+    <!-- Dashed outer ring -->
+    <ellipse cx="600" cy="490" rx="540" ry="380"
+             fill="none" stroke="#8a6d3b" stroke-width="2" stroke-dasharray="10 6" opacity="0.7"/>
+
+    <!-- Three main circles -->
+    <circle cx="440" cy="400" r="260" fill="#4a90c9" fill-opacity="0.18" stroke="#2b6a9e" stroke-width="2"/>
+    <circle cx="760" cy="400" r="260" fill="#5ba663" fill-opacity="0.18" stroke="#357a3d" stroke-width="2"/>
+    <circle cx="600" cy="630" r="260" fill="#d98535" fill-opacity="0.18" stroke="#a4601f" stroke-width="2"/>
+
+    <!-- AXIS LABELS — placed inside each circle, centered on the X-only zone center, just above the items (mirrors UNIVERSAL SCOPE's tight axis-to-items spacing) -->
+    <text x="340" y="285" text-anchor="middle" font-size="17" font-weight="700" fill="#2b6a9e">REASONED ETHICS</text>
+    <text x="340" y="303" text-anchor="middle" font-size="11" fill="#2b6a9e" font-style="italic">(Euthyphro-reasoned; anti-voluntarist)</text>
+
+    <text x="860" y="267" text-anchor="middle" font-size="17" font-weight="700" fill="#357a3d">CHARACTER /</text>
+    <text x="860" y="285" text-anchor="middle" font-size="17" font-weight="700" fill="#357a3d">CAPACITY-CULTIVATION</text>
+    <text x="860" y="303" text-anchor="middle" font-size="11" fill="#357a3d" font-style="italic">(define by cultivation, not lack)</text>
+
+    <text x="600" y="735" text-anchor="middle" font-size="17" font-weight="700" fill="#a4601f">UNIVERSAL SCOPE / NEIGHBOR-LOVE</text>
+    <text x="600" y="753" text-anchor="middle" font-size="11" fill="#a4601f" font-style="italic">(concern expands beyond in-group)</text>
+
+    <!-- R only zone — items centered on x=340 -->
+    <text x="340" y="350" text-anchor="middle" font-size="11" fill="#1a1a1a">Kantian deontology*</text>
+    <text x="340" y="368" text-anchor="middle" font-size="11" fill="#1a1a1a">Analytic meta-ethics</text>
+    <text x="340" y="386" text-anchor="middle" font-size="11" fill="#1a1a1a">Adams' modified DCT</text>
+
+    <!-- C only zone — items centered on x=860 -->
+    <text x="860" y="350" text-anchor="middle" font-size="11" fill="#1a1a1a">Classical Aristotelian</text>
+    <text x="860" y="368" text-anchor="middle" font-size="11" fill="#1a1a1a">virtue ethics (polis-bound)</text>
+    <text x="860" y="386" text-anchor="middle" font-size="11" fill="#1a1a1a">Stoicism (ancient)</text>
+
+    <!-- U only zone — items centered on x=600 -->
+    <text x="600" y="800" text-anchor="middle" font-size="11" fill="#1a1a1a">Singer's Expanding Circle</text>
+    <text x="600" y="818" text-anchor="middle" font-size="11" fill="#1a1a1a">(utilitarian, reason-derived)*</text>
+
+    <!-- R ∩ C zone — centered on x=600 -->
+    <text x="600" y="295" text-anchor="middle" font-size="12" font-weight="700" fill="#1a1a1a">R &cap; C</text>
+    <text x="600" y="315" text-anchor="middle" font-size="11" fill="#1a1a1a">Aquinas natural-law + virtue</text>
+    <text x="600" y="333" text-anchor="middle" font-size="11" fill="#1a1a1a">Confucian junzi (reason+virtue)</text>
+
+    <!-- R ∩ U zone — centered on x=455; v3.6 (2026-05-06) header y=525 to match C∩U baseline -->
+    <text x="455" y="525" text-anchor="middle" font-size="12" font-weight="700" fill="#1a1a1a">R &cap; U</text>
+    <text x="455" y="545" text-anchor="middle" font-size="11" fill="#1a1a1a">Mu'tazilite rationalism</text>
+    <text x="455" y="563" text-anchor="middle" font-size="11" fill="#1a1a1a">Twelver Shia theology</text>
+    <text x="455" y="581" text-anchor="middle" font-size="11" fill="#1a1a1a">Kantian universalizability</text>
+    <text x="455" y="599" text-anchor="middle" font-size="11" fill="#1a1a1a">Secular post-Kant ethics</text>
+
+    <!-- C ∩ U zone — centered on x=745; v3.5 (2026-05-06) shifted down 23px to header y=525 per visual edit in picture 2 -->
+    <text x="745" y="525" text-anchor="middle" font-size="12" font-weight="700" fill="#1a1a1a">C &cap; U</text>
+    <text x="745" y="545" text-anchor="middle" font-size="11" fill="#1a1a1a">Buddhist metta / bodhisattva</text>
+    <text x="745" y="561" text-anchor="middle" font-size="11" fill="#1a1a1a">Ubuntu (Bantu, southern Africa)</text>
+    <text x="745" y="577" text-anchor="middle" font-size="11" fill="#1a1a1a">Yoruba iwa / omoluwabi</text>
+    <text x="745" y="593" text-anchor="middle" font-size="11" fill="#1a1a1a">Akan suban (Gyekye, Wiredu)</text>
+    <text x="745" y="609" text-anchor="middle" font-size="11" fill="#1a1a1a">Early agape Christianity</text>
+    <text x="745" y="625" text-anchor="middle" font-size="11" fill="#1a1a1a">Hindu ahimsa tradition</text>
+
+    <!-- R ∩ C ∩ U convergence zone — raised and tightened so all four corners sit clear of the circle boundaries -->
+    <rect x="525" y="410" width="150" height="80" fill="#fff8e0" stroke="#9a7b1a" stroke-width="1.5" rx="6"/>
+    <text x="600" y="430" text-anchor="middle" font-size="10" font-style="italic" fill="#6a5410">R &cap; C &cap; U &mdash; convergence</text>
+    <text x="600" y="450" text-anchor="middle" font-size="13" font-weight="700" fill="#1a1a1a">COMMON-GROUND</text>
+    <text x="600" y="466" text-anchor="middle" font-size="13" font-weight="700" fill="#1a1a1a">ETHICS</text>
+    <text x="600" y="484" text-anchor="middle" font-size="9" font-style="italic" fill="#6a5410">(character-over-compliance)</text>
+
+    <!-- VOLUNTARIST POLE (top-left, outside ring) -->
+    <text x="60" y="100" font-size="13" font-weight="700" fill="#7a1f1f">VOLUNTARIST POLE</text>
+    <text x="60" y="115" font-size="11" font-style="italic" fill="#7a1f1f">(outside ring)</text>
+    <text x="60" y="135" font-size="11" fill="#7a1f1f">Ash'arite Sunni orthodoxy</text>
+    <text x="60" y="151" font-size="11" fill="#7a1f1f">Ockham's voluntarism</text>
+    <text x="60" y="167" font-size="11" fill="#7a1f1f">Contemporary DCT (Craig)</text>
+    <text x="60" y="183" font-size="11" fill="#7a1f1f">Strong Protestant voluntarism</text>
+
+    <!-- COMPLIANCE / DEFICIT POLE (top-right, outside ring) -->
+    <text x="980" y="100" font-size="13" font-weight="700" fill="#7a1f1f">COMPLIANCE /</text>
+    <text x="980" y="116" font-size="13" font-weight="700" fill="#7a1f1f">DEFICIT POLE</text>
+    <text x="980" y="131" font-size="11" font-style="italic" fill="#7a1f1f">(outside ring)</text>
+    <text x="980" y="151" font-size="11" fill="#7a1f1f">EU AI Act (hard law)</text>
+    <text x="980" y="167" font-size="11" fill="#7a1f1f">Strict Shariah compliance</text>
+    <text x="980" y="183" font-size="11" fill="#7a1f1f">Bureaucratic rule-following</text>
+    <text x="980" y="199" font-size="11" fill="#7a1f1f">IEEE / OECD / Asilomar**</text>
+    <text x="980" y="215" font-size="11" fill="#7a1f1f">DSM-5-TR diagnostic apparatus***</text>
+
+    <!-- FAILURE-MECHANISM MAP (bottom-left, outside ring, MIRRORS VOLUNTARIST POLE at x=60) -->
+    <text x="60" y="785" font-size="13" font-weight="700" fill="#6a1a6a">FAILURE-MECHANISM MAP</text>
+    <text x="60" y="800" font-size="11" font-style="italic" fill="#6a1a6a">(outside ring, below)</text>
+    <text x="60" y="820" font-size="11" fill="#6a1a6a">Bandura's 8 moral-disengagement</text>
+    <text x="60" y="836" font-size="11" fill="#6a1a6a">mechanisms &mdash; how character,</text>
+    <text x="60" y="852" font-size="11" fill="#6a1a6a">reason, and universalism each</text>
+    <text x="60" y="868" font-size="11" fill="#6a1a6a">switch off under pressure.</text>
+
+    <!-- EMPIRICAL ANCHOR (bottom-right, outside ring, MIRRORS COMPLIANCE/DEFICIT POLE at x=980) -->
+    <text x="980" y="785" font-size="13" font-weight="700" fill="#444">EMPIRICAL ANCHOR</text>
+    <text x="980" y="800" font-size="11" font-style="italic" fill="#444">(outside ring, below)</text>
+    <text x="980" y="820" font-size="11" fill="#444">DSM-5-TR &mdash; the most rigorous</text>
+    <text x="980" y="836" font-size="11" fill="#444">deficit/compliance framework yet</text>
+    <text x="980" y="852" font-size="11" fill="#444">still produces deficit-framing.</text>
+    <text x="980" y="868" font-size="11" fill="#444">Section III + CFI = convergence;</text>
+    <text x="980" y="884" font-size="11" fill="#444">apparatus stays on deficit pole.</text>
+
+  </svg>
+
+  <div class="convergence-panel">
+    <h3>R &cap; C &cap; U &mdash; Convergence-Zone Traditions</h3>
+    <ul>
+      <li>Talmudic rabbinic Judaism (<em>mahloket</em> tradition of internal critique)</li>
+      <li>Quranic reformist / Mu'tazilite-Quranic Islam (<em>ijtihad</em> as institutionalized reasoned interpretation)</li>
+      <li>Indigenous 7-generation ethics</li>
+      <li>Confucian-Mencian synthesis</li>
+      <li>Akan tradition (Gyekye, Wiredu) &mdash; <em>suban</em> as character-as-personhood; Wiredu's consensus tradition as institutionalized internal critique</li>
+      <li>Yoruba tradition &mdash; <em>iwa</em> / <em>omoluwabi</em> as character-as-foundation-of-personhood</li>
+      <li>Black-Atlantic / diaspora moral philosophy (Fanon, Du Bois, Wynter, Gordon) &mdash; recognition-of-dignity articulated from inside denied recognition</li>
+      <li>Anthropic Constitutional AI (partial &mdash; reaches the convergence but operates at training stage rather than sustained-collaboration stage)</li>
+      <li>DSM-5-TR Section III &amp; Cultural Formulation Interview (same structural move expressed in clinical register)</li>
+      <li>Recovery Movement (Pat Deegan) and Hearing Voices Movement (Romme &amp; Escher) &mdash; same structural move articulated in clinical register from inside the diagnostic encounter</li>
+    </ul>
+  </div>
+
+  <h2>Footnotes</h2>
+  <div class="notes">
+    <ul>
+      <li>* Kantian ethics arguably R&cap;U; weakness is thin character-cultivation.</li>
+      <li>** IEEE-EAD and UNESCO partially reach into character/universal zones from the compliance pole.</li>
+      <li>*** DSM-5-TR Section III culture chapter sits convergence-adjacent; the diagnostic apparatus does not.</li>
+    </ul>
+  </div>
+
+  <h2>How to read it</h2>
+  <div class="notes">
+    <ul>
+      <li><strong>Three main circles</strong> = the three structural axes every tradition we researched sits somewhere on: (1) does it privilege reasoned ethics rather than pure divine command, (2) does it center character / capacity-cultivation rather than rule-compliance or deficit-cataloguing, (3) does it push scope beyond the in-group.</li>
+      <li><strong>Dashed outer ring</strong> = does the tradition have an institutionalized mechanism for correcting its own canonical text when earlier material conflicts with later moral understanding? Talmudic <em>mahloket</em>, Islamic <em>madhab</em> pluralism, Christian progressive-revelation, Anthropic's constitutional revision process, DSM-5-TR's Ethnoracial Equity and Inclusion Work Group review &mdash; all live here. Traditions and frameworks without this mechanism oscillate between expansion and contraction passages driven by non-ethical forces.</li>
+      <li><strong>Yellow box (center)</strong> = the three-way overlap where Common-Ground Ethics synthesizes. The <em>location</em> isn't novel &mdash; the traditions in the panel above already live here. The framework's contribution is articulating what is common across them in AI-applicable language, with capacity-side rather than deficit-side definitions.</li>
+      <li><strong>Outside positions</strong> = what the framework is explicitly <em>not</em>. The voluntarist pole = pure DCT. The compliance / deficit pole = rules and lacks without character-cultivation. Bandura's disengagement mechanisms = the failure map.</li>
+      <li><strong>Empirical anchor (bottom-right)</strong> = DSM-5-TR illustrates that even extraordinary effort to soften deficit/compliance framings does not escape the structural problem. The Section III culture chapter and CFI reach into the convergence zone (capacity-respecting, cross-cultural, internal-critique-equipped); the diagnostic apparatus that surrounds them stays on the deficit pole. This is empirical evidence that the structural alternative is needed, not a softer version of the same.</li>
+    </ul>
+  </div>
+
+  <h2>What the research now covers (19 numbered notes &mdash; updated 2026-05-06)</h2>
+  <div class="notes">
+    <ul>
+      <li>Note 01: Sadistik lyric analysis (poem context)</li>
+      <li>Note 02&ndash;04: Primary-source passes on Christian Bible, Tanakh, Quran</li>
+      <li>Note 05: Three-tradition comparative synthesis (Abrahamic)</li>
+      <li>Note 06: Divine Command Theory philosophical literature (Euthyphro &rarr; Aquinas &rarr; Ockham &rarr; Adams &rarr; contemporary)</li>
+      <li>Note 07: AI ethics application</li>
+      <li>Note 08: Bandura's moral disengagement + Singer's expanding circle (primary-source)</li>
+      <li>Note 09: Scaffolding specification v0.1</li>
+      <li>Note 10: Non-Abrahamic ethics &mdash; Buddhist, Confucian, Hindu, African, Indigenous</li>
+      <li>Note 11: Engagement with formal AI ethics codes (IEEE, Montreal, Asilomar, OECD, EU AI Act, UNESCO) &mdash; with Justin's annotations on democratic-institutions caveat and prevention-vs-cultivation orientation</li>
+      <li>Note 12: Anthropic publications deep-crawl (Constitutional AI, Core Views, interpretability, model welfare) &mdash; with Justin's annotations on bottom-up scaling and honest-uncertainty as feature</li>
+      <li>Note 13: Case studies (excluded from this pass &mdash; preserved as-is)</li>
+      <li><strong>Note 14:</strong> DSM-5-TR Neurodevelopmental Disorders (IDD, ASD) &mdash; disability-ethics anchor</li>
+      <li><strong>Note 15:</strong> DSM-5-TR Neurocognitive Disorders &mdash; acquired cognitive-change cases</li>
+      <li><strong>Note 16:</strong> DSM-5-TR Schizophrenia Spectrum &mdash; perception-of-reality-differs cases</li>
+      <li><strong>Note 17:</strong> DSM-5 to DSM-5-TR language shifts &mdash; institutional self-correction in action</li>
+      <li><strong>Note 18:</strong> DSM-5-TR Section III Culture and Psychiatric Diagnosis &mdash; conceptual chapter behind CFI; structurally parallel to our cross-tradition move</li>
+      <li><strong>Note 19:</strong> Cultural Concepts of Distress &mdash; cross-civilizational anchor for human-human transferability</li>
+    </ul>
+  </div>
+
+  <div class="legend">
+    <div class="legend-item"><div class="swatch" style="background:#4a90c9;opacity:0.5"></div>Reasoned Ethics</div>
+    <div class="legend-item"><div class="swatch" style="background:#5ba663;opacity:0.5"></div>Character / Capacity-Cultivation Primary</div>
+    <div class="legend-item"><div class="swatch" style="background:#d98535;opacity:0.5"></div>Universal Scope / Neighbor-Love</div>
+    <div class="legend-item"><div class="swatch" style="background:transparent;border:2px dashed #8a6d3b"></div>Internal-Critique Mechanism</div>
+  </div>
+
+</div>
+</body>
+</html>

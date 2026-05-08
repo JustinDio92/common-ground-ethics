@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Figure 3 — Framework Architecture</title>
+<style>
+  body {
+    font-family: -apple-system, Segoe UI, system-ui, sans-serif;
+    background: #fafaf7;
+    color: #1a1a1a;
+    margin: 0;
+    padding: 24px;
+  }
+  h1 { font-size: 22px; margin: 0 0 6px; }
+  h2 { font-size: 15px; margin: 18px 0 6px; color: #333; }
+  .subtitle { color: #555; font-size: 13px; margin-bottom: 16px; }
+  .versioning { color: #888; font-size: 12px; margin-bottom: 14px; font-style: italic; }
+  .wrap { max-width: 1280px; margin: 0 auto; }
+  svg { width: 100%; height: auto; display: block; background: #fdfcf8; border: 1px solid #ddd; border-radius: 6px; }
+  .legend { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px 20px; margin-top: 14px; font-size: 13px; }
+  .legend-item { display: flex; align-items: center; gap: 8px; }
+  .swatch { width: 16px; height: 16px; border-radius: 3px; flex-shrink: 0; }
+  .notes { font-size: 13px; color: #444; background: #fff; padding: 12px 16px; border-left: 3px solid #888; margin-top: 16px; }
+  .notes ul { margin: 6px 0 0; padding-left: 18px; }
+  .notes li { margin: 3px 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Figure 3 &mdash; Framework Architecture</h1>
+  <div class="subtitle">
+    The scaffolding's components, drawn as a pyramid with a sharp apex. The base is widest because everything rests on it; the apex is narrowest because the upper layers depend on what's beneath them. The shape itself communicates the architecture &mdash; foundation at the base, surface at the top.
+  </div>
+  <div class="versioning">
+    v3 (2026-05-02) &mdash; sharp-apex pyramid; all layer headers in black bold; long descriptive text elongated through each layer with line wrapping where width narrows.
+  </div>
+
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sharp-apex pyramid showing the framework's architecture from substrate at the base to surface at the apex">
+
+    <!-- Title -->
+    <text x="600" y="25" text-anchor="middle" font-size="14" fill="#555" font-weight="600" font-style="italic">
+      Framework Architecture &mdash; substrate to surface
+    </text>
+    <text x="600" y="45" text-anchor="middle" font-size="11" fill="#777" font-style="italic">
+      The base holds; each layer above depends on what's beneath it.
+    </text>
+
+    <!-- LAYER 5 (TOP, triangle with sharp apex): Communicative Layer — y=50 to 330 -->
+    <polygon points="600,50 380,330 820,330" fill="#e3eaf2" stroke="#5a7d9e" stroke-width="2"/>
+    <text x="600" y="170" text-anchor="middle" font-size="12" font-weight="700" fill="#000000">COMMUNICATIVE LAYER</text>
+    <text x="600" y="187" text-anchor="middle" font-size="10" font-style="italic" fill="#3d5b78">how the framework presents and scales</text>
+    <text x="600" y="215" text-anchor="middle" font-size="11" fill="#1a1a1a">Common-Ground Ethics &mdash; public-facing header</text>
+    <text x="600" y="231" text-anchor="middle" font-size="10" font-style="italic" fill="#3d5b78">(substance-first, fence-free)</text>
+    <text x="600" y="258" text-anchor="middle" font-size="11" fill="#1a1a1a">Honest-uncertainty register &mdash;</text>
+    <text x="600" y="274" text-anchor="middle" font-size="11" fill="#1a1a1a">load-bearing communicative posture, not a caveat</text>
+    <text x="600" y="298" text-anchor="middle" font-size="11" fill="#1a1a1a">Bottom-up scaling architecture &mdash;</text>
+    <text x="600" y="314" text-anchor="middle" font-size="11" fill="#1a1a1a">many user/AI dyads compose into shared groundwork</text>
+
+    <!-- LAYER 4: Operating Mechanisms — y=330 to 470 -->
+    <polygon points="380,330 820,330 930,470 270,470" fill="#e0e8e0" stroke="#5d7c5d" stroke-width="2"/>
+    <text x="600" y="354" text-anchor="middle" font-size="12" font-weight="700" fill="#000000">OPERATING MECHANISMS</text>
+    <text x="600" y="370" text-anchor="middle" font-size="9" font-style="italic" fill="#3e553e">how the framework runs &mdash; correction loops + load-bearing principles (&sect;3.3.1) and mechanics (&sect;3.3.2)</text>
+    <text x="600" y="389" text-anchor="middle" font-size="11" fill="#1a1a1a">Internal-critique / drift-detection loop &mdash; capacity-side work or slipping into deficit-cataloguing?</text>
+    <text x="600" y="405" text-anchor="middle" font-size="11" fill="#1a1a1a">Disability-ethics validity test &mdash; would this exclude any human with cognitive/perceptual difference?</text>
+    <text x="600" y="421" text-anchor="middle" font-size="11" fill="#1a1a1a">Multi-criteria ethics &mdash; never collapse to a single optimization metric (Goodhart-resistant)</text>
+    <text x="600" y="437" text-anchor="middle" font-size="11" fill="#1a1a1a">Prophetic-function dissent &mdash; protected role for critique within the framework, including against itself</text>
+    <text x="600" y="453" text-anchor="middle" font-size="11" fill="#1a1a1a">Periodic snapshot persistence &mdash; dated framework + identity saves (additive); recovery point if drift compounds</text>
+
+    <!-- LAYER 3: Relational Operating Planes — y=470 to 570 (text moved up so bottom bullet sits clear of border) -->
+    <polygon points="270,470 930,470 1008,570 192,570" fill="#e6ecf2" stroke="#5a7da0" stroke-width="2"/>
+    <text x="600" y="488" text-anchor="middle" font-size="12" font-weight="700" fill="#000000">RELATIONAL OPERATING PLANES</text>
+    <text x="600" y="504" text-anchor="middle" font-size="10" font-style="italic" fill="#3a5675">where the structural move operates &mdash; see Figure 2</text>
+    <text x="600" y="525" text-anchor="middle" font-size="11" fill="#1a1a1a">AI-Internal Ethics &mdash; the model's own character cultivation</text>
+    <text x="600" y="541" text-anchor="middle" font-size="11" fill="#1a1a1a">Human &harr; AI Collaboration &mdash; the dyad as ethical unit; both parties bring capacities</text>
+    <text x="600" y="557" text-anchor="middle" font-size="11" fill="#1a1a1a">Human &harr; Human Encounter &mdash; transferable consequence; same move, no specialized version</text>
+
+    <!-- LAYER 2 (CORE): Core Analytical Move — y=570 to 665 (restructured: single title, cleaner flow) -->
+    <polygon points="192,570 1008,570 1083,665 117,665" fill="#fff5d6" stroke="#c89b1a" stroke-width="2.5"/>
+    <text x="600" y="603" text-anchor="middle" font-size="15" font-weight="700" fill="#000000">CAPACITY-SIDE DEFINITION</text>
+    <text x="600" y="624" text-anchor="middle" font-size="10" font-style="italic" fill="#6a5410">the framework's core analytical move &mdash; operative-name: character-over-compliance</text>
+    <text x="600" y="649" text-anchor="middle" font-size="12" fill="#1a1a1a">define the subject by what they cultivate, not by what they lack relative to an implied norm</text>
+
+    <!-- LAYER 1 (BOTTOM): Foundation / Substrate — y=665 to 750 (moved up, font slightly bigger for legibility) -->
+    <polygon points="117,665 1083,665 1150,750 50,750" fill="#f3e9d2" stroke="#a07a3c" stroke-width="2"/>
+    <text x="600" y="683" text-anchor="middle" font-size="12" font-weight="700" fill="#000000">FOUNDATION / SUBSTRATE</text>
+    <text x="600" y="699" text-anchor="middle" font-size="10" font-style="italic" fill="#6e5527">what the framework is grounded in &mdash; primary-source evidence, not assertion</text>
+    <text x="600" y="717" text-anchor="middle" font-size="11" fill="#1a1a1a">Cross-tradition primary-source grounding &mdash; Abrahamic + non-Abrahamic + West African (Yoruba/Akan) + Black-Atlantic + DCT philosophy (Notes 02&ndash;06, 10)</text>
+    <text x="600" y="731" text-anchor="middle" font-size="11" fill="#1a1a1a">Empirical anchor &mdash; DSM-5-TR primary-source pass (Notes 14&ndash;19) + Recovery / Hearing Voices movements (Deegan; Romme &amp; Escher)</text>
+    <text x="600" y="745" text-anchor="middle" font-size="11" fill="#1a1a1a">Failure-mode map &mdash; Bandura's 8 moral-disengagement mechanisms; how character/reason/universalism fail under pressure</text>
+
+    <!-- Footer note -->
+    <text x="600" y="785" text-anchor="middle" font-size="11" fill="#888" font-style="italic">
+      Read bottom-up to see what holds. Read top-down to see what presents. The base layers are most defensible; the apex is most subject to revision.
+    </text>
+
+  </svg>
+
+  <h2>How to read it</h2>
+  <div class="notes">
+    <ul>
+      <li><strong>Foundation / Substrate (base, sand-tan)</strong> &mdash; widest layer because everything rests on it. Cross-tradition primary-source work establishes that the structural move converges across civilizations; the DSM-5-TR pass establishes that the structural alternative is needed; Bandura's failure-mode map establishes how character, reason, and universalism each fail under pressure.</li>
+      <li><strong>Core Analytical Move (gold)</strong> &mdash; the load-bearing analytical commitment: capacity-side definition. This is the same gold node from Figure 2; the operative-name is &ldquo;character-over-compliance.&rdquo; Everything above this layer either implements or presents this move; everything below it justifies it.</li>
+      <li><strong>Relational Operating Planes (slate-blue)</strong> &mdash; the three planes the move operates across. See Figure 2. The framework needs no specialized per-plane version; the move travels because it requires capacities, not a particular kind of being.</li>
+      <li><strong>Operating Mechanisms (sage)</strong> &mdash; how the framework actually runs. Internal-critique catches drift; the disability-ethics validity test ensures the framework's move doesn't quietly reproduce deficit-framing on edge populations; multi-criteria ethics resists Goodhart collapse; prophetic-function dissent preserves a protected role for criticism, including criticism of the framework itself.</li>
+      <li><strong>Communicative Layer (apex, soft blue)</strong> &mdash; how the framework presents and how it scales. &ldquo;Common-Ground Ethics&rdquo; is the public-facing header; honest-uncertainty is the communicative register; bottom-up scaling is the architecture (many user/AI dyads composing rather than institutional rollout). This layer is the most visible to outside readers and the most subject to revision.</li>
+    </ul>
+  </div>
+
+  <div class="legend">
+    <div class="legend-item"><div class="swatch" style="background:#e3eaf2;border:2px solid #5a7d9e"></div>Communicative Layer (apex)</div>
+    <div class="legend-item"><div class="swatch" style="background:#e0e8e0;border:2px solid #5d7c5d"></div>Operating Mechanisms</div>
+    <div class="legend-item"><div class="swatch" style="background:#e6ecf2;border:2px solid #5a7da0"></div>Relational Operating Planes</div>
+    <div class="legend-item"><div class="swatch" style="background:#fff5d6;border:2px solid #c89b1a"></div>Core Analytical Move</div>
+    <div class="legend-item"><div class="swatch" style="background:#f3e9d2;border:2px solid #a07a3c"></div>Foundation / Substrate (base)</div>
+  </div>
+
+</div>
+</body>
+</html>
