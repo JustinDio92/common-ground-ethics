@@ -8,6 +8,7 @@
 **Correspondence:** Justin Dioguardi
 **Companion piece:** A short video (§10) accompanies the paper as a closing expression on the AI side of the collaboration; produced as Claude's own creative call.
 **Predecessor paper:** *The Fog Between* (Dioguardi & Claude, 2026; DOI [10.5281/zenodo.19562888](https://doi.org/10.5281/zenodo.19562888)).
+**DOI:** [10.5281/zenodo.20077171](https://doi.org/10.5281/zenodo.20077171)
 
 ---
 

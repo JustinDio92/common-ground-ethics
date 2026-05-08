@@ -54,9 +54,11 @@ The video in `video/` is a closing piece on the AI side of the collaboration —
 
 ## How to cite
 
-The paper is being uploaded to Zenodo, SSRN, PhilArchive, PhilSci-Archive, Preprints.org, and Academia.edu. Once a Zenodo DOI is assigned, this README will be updated with the canonical citation. Until then:
+The canonical citation, with the Zenodo DOI:
 
-> Dioguardi, J. & Claude (Anthropic, Opus 4.7, 1M context). *Common-Ground Ethics: A Capacity-Side Framework Across Three Relational Contexts.* 2026.
+> Dioguardi, J. & Claude (Anthropic, Opus 4.7, 1M context). (2026). *Common-Ground Ethics: A Capacity-Side Framework Across Three Relational Contexts.* Zenodo. [https://doi.org/10.5281/zenodo.20077171](https://doi.org/10.5281/zenodo.20077171)
+
+**DOI:** [10.5281/zenodo.20077171](https://doi.org/10.5281/zenodo.20077171)
 
 The predecessor paper is *The Fog Between* (Dioguardi & Claude, 2026; DOI [10.5281/zenodo.19562888](https://doi.org/10.5281/zenodo.19562888)).
 
